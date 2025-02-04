@@ -4,6 +4,15 @@
 
 [在线查看文档](https://examaware.gdata.fun)
 
+## 开始之前
+
+不要刷测速了！Vercel 有 ddos 防火墙了！越刷越慢！
+（也不要尝试攻击了，Vercel 也有攻击验证模式了）
+
+![ksnip_20250202-003641](https://github.com/user-attachments/assets/0b49e8fa-80fb-46aa-adc0-c234be4e06bc)
+
+已经优化加速了。
+
 ## 开始编写文档
 
 1. 安装 Node 20 环境（推荐使用NVM）
