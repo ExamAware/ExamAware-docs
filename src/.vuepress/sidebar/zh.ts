@@ -28,41 +28,38 @@ export const zhSidebar = sidebar({
       ],
     },
   ],
-  "/management/": [
+  "/web/": [
     {
-      text: "集控和网页版应用帮助",
+      text: "网页端",
       children: [
         "README.md",
-        {
-          text: "ExamCloud 云配置",
-          collapsible: true,
-          expanded: true,
-          prefix: "examcloud/",
-          children: [
-            "client-identify.md",
-          ],
-          icon: "fa-solid fa-file-lines"
-        },
-        {
-          text: "ExamShowboard 配置",
-          collapsible: true,
-          expanded: true,
-          prefix: "examshowboard/",
-          children: [
-            "static-config.md",
-          ],
-          icon: "fa-solid fa-file-lines"
-        },
         {
           text: "ExamSchedule 配置",
           collapsible: true,
           expanded: true,
           prefix: "examschedule/",
           children: [
-            "management-config.md",
+            "web-deploy.md",
           ],
           icon: "fa-solid fa-file-lines"
         },
+      ],
+    },
+  ],
+  "/management/": [
+    {
+      text: "集控",
+      children: [
+        "README.md",
+      ],
+    },
+  ],
+  "/community/": [
+    {
+      text: "社区",
+      children: [
+        "README.md",
+        "rules.md"
       ],
     },
   ],

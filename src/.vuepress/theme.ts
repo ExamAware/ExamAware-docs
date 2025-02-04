@@ -38,7 +38,7 @@ export default hopeTheme({
       sidebar: zhSidebar,
 
       //  autocorrect-disable
-      footer: "Copyright (c) 2024 ExamAware | " +
+      footer: "Copyright (c) 2025 ExamAware | " +
           '本文档以 CC BY-NC-SA 4.0 许可协议授权。',
       //  autocorrect-enable
 

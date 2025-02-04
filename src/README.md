@@ -10,7 +10,7 @@ heroImageStyle:
 bgImageStyle:
   background-attachment: fixed
 heroText: ExamAware 文档
-tagline: 显示当前时间与考试详细信息的工具
+tagline: 一款展示当前时间与考试详细信息的工具
 actions:
   - text: 使用说明
     icon: lightbulb
@@ -21,7 +21,7 @@ actions:
     link: https://github.com/ExamAware/
 
   - text: GitHub 仓库
-    link: https://github.com/ExamAware/dsz-exam-showboard
+    link: https://github.com/ExamAware/ExamAware2-Desktop
 
 ---
 
@@ -47,13 +47,23 @@ ExamAware 系列软件是显示当前时间与考试详细信息的工具，可�
 
 <div class="vp-card-container">
   <VPCard
-    title="桌面版应用帮助"
+    title="桌面端应用帮助"
     desc="了解应用的基本使用方法。"
     link="./app/"
   />
   <VPCard
-    title="集控和网页版应用帮助"
-    desc="查看这部分文档包含了关于集控的帮助，以及网页版应用部署的教程。"
+    title="网页端应用帮助"
+    desc="查看这部分文档包含了关于网页段应用帮助和部署的教程。"
+    link="./web/"
+  />
+  <VPCard
+    title="集控帮助"
+    desc="查看这部分文档包含了关于集控帮助和部署的教程。"
     link="./management/"
+  />
+    <VPCard
+    title="社区"
+    desc="了解如何参与 ExamAware 社区。"
+    link="./community/"
   />
 </div>
