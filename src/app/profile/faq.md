@@ -2,11 +2,50 @@
 
 此配置文件保存着考试名称, 考试考场, 考试开始/结束时间等信息。
 
-您可以手动编写配置文件，也可以直接使用[配置文件编辑器](https://github.com/ExamAware/DSZExamShowBoardEditor/releases/latest)编写配置文件。
+> [!tip]
+>
+>在新版本（即 `ExamAware2` 和 `ExamCloud` ）中，已经集成了编辑器，可以略过本部分帮助。
 
-在新版本（即 `ExamAware2` 和 `ExamCloud` ）中，已经集成了编辑器，可以略过本部分帮助。
 
-## 配置文件编辑器（旧版）
+您可以手动编写配置文件，也可以直接使用[配置文件编辑器(legacy)](/app/profile/faq.md#配置文件编辑器-legacy)编写配置文件。
+
+## 手动编写配置文件   
+> [!warning]
+>
+> 请确保 `exam_config.json` 文件编码为 `UTF-8`，换行符为 `LF`，按照`json`文件格式填写。不然可能会出一些神奇的 Bug。
+>
+> 不确定？可以使用 [VSCode](https://code.visualstudio.com/) 打开、编辑文件，右下角显示编码格式和换行方式，点击即可更改。
+
+ 1. 新建一个名为 `exam_config.json` 的文件
+ 2. 编辑文件内容，格式如下
+ ```json
+{
+  "examName": "考试名称",
+  "message": "信息",
+  "examInfos": [
+    {
+      "name": "科目",
+      "start": "2024-12-01T07:00:00",
+      "end": "2024-12-01T08:00:00"
+    },
+    {
+      "name": "科目/科目",
+      "start": "2024-12-01T09:00:00",
+      "end": "2024-12-01T10:00:00"
+    }
+  ]
+}
+```    
+
+> [!tip]
+>
+> `message`内容必填（可填空格隐藏），`examInfos` 至少需要一条数据。
+>
+> 如果有两个以"/"分隔的科目可以自动转化为双行显示
+
+## 配置文件编辑器(legacy)
+> [!caution]
+> **配置文件编辑器(legacy)不再维护** 如果您汇报使用此编辑器遇到的相关问题， **开发者可能不会受理。**
 
  您可以前往[ExamShowBoardEditor](https://github.com/ProjectCampus-CH/DSZExamShowBoardEditor/releases/latest)获取GUI的配置文件生成软件   
  1.双击运行从[仓库](https://github.com/ProjectCampus-CH/DSZExamShowBoardEditor/releases/latest)下载的软件   
@@ -38,41 +77,6 @@
   - 点击 `删除` 按钮删除选中的考试科目
   - 点击 `上移/下移` 按钮移动选中的考试科目(此按钮可以调整考试科目显示的顺序)
 
-## 手动编写配置文件   
-> [!warning]
->
-> 请确保 `exam_config.json` 文件编码为 `UTF-8`，换行符为 `LF`，按照`json`文件格式填写。不然可能会出一些神奇的 Bug。
->
-> 不确定？可以使用 [VSCode](https://code.visualstudio.com/) 打开、编辑文件，右下角显示编码格式和换行方式，点击即可更改。
-
- 1. 新建一个名为 `exam_config.json` 的文件
- 2. 编辑文件内容，格式如下
- ```json
-{
-  "examName": "考试名称",
-  "message": "信息",
-  "room": "考场号",
-  "examInfos": [
-    {
-      "name": "科目",
-      "start": "2024-12-01T07:00:00",
-      "end": "2024-12-01T08:00:00"
-    },
-    {
-      "name": "科目/科目",
-      "start": "2024-12-01T09:00:00",
-      "end": "2024-12-01T10:00:00"
-    }
-  ]
-}
-```    
-
-> [!tip]
->
-> `message` 与 `room` 内容必填（可填空格隐藏），`examInfos` 至少需要一条数据。
->
-> 如果有两个以"/"分隔的科目可以自动转化为双行显示
-
 > [!tip]   
 >
->您可以将配置文件复制到 U 盘等介质中，然后在另一台电脑上保存该文件，以实现配置文件的转移及部署;您也可以使用[集控]实现配置文件的下发及部署。   
+>您可以将配置文件复制到 U 盘等介质中，然后在另一台电脑上保存该文件，以实现配置文件的转移及部署;您也可以使用[集控](/management/)实现配置文件的下发及部署。   
