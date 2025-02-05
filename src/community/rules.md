@@ -37,8 +37,7 @@ icon: scale-balanced
 ## 提问/求助
 
 1. 提问前请在这些地方查找您要问的问题：
-    - [本文档](https://docs.classisland.tech)
-    - [常见问题](../app/faq/faq.md)
+    - [本文档](https://https://docs.examaware.us.kg/)
     - [Issues](https://github.com/ExamAware/ExamAware2-Desktop/issues?q=is%3Aissue)
     - 搜索引擎（[必应](https://cn.bing.com/)、[百度](https://www.baidu.com/)等）
     
@@ -48,7 +47,7 @@ icon: scale-balanced
 
 2. 提问和求助时请提供足够的信息，提供越多有效信息越能得到帮助。您至少应该提供这些信息：
     - 系统环境（如操作系统版本等）
-    - [程序日志](../app/faq/reporting-issue.md#收集日志)
+    - 程序日志
     - 错误堆栈信息（如有）
 
     > 在没有错误日志的情况下诊断任何问题无异于闭眼开车

@@ -34,13 +34,8 @@ export const zhSidebar = sidebar({
       children: [
         "README.md",
         {
-          text: "ExamSchedule 配置",
-          collapsible: true,
-          expanded: true,
-          prefix: "examschedule/",
-          children: [
-            "web-deploy.md",
-          ],
+          text: "部署教程",
+          link: "web-deploy.md",
           icon: "fa-solid fa-file-lines"
         },
       ],
@@ -51,6 +46,37 @@ export const zhSidebar = sidebar({
       text: "集控",
       children: [
         "README.md",
+        {
+          text: "集控服务器",
+          collapsible: true,
+          expanded: true,
+          prefix: "management-server/",
+          children: [
+            "README.md",
+            {
+              text: "部署教程",
+              link: "web-deploy.md",
+              icon: "fa-solid fa-file-lines"
+            },
+            "client-identify.md",
+          ],
+          icon: "fa-solid fa-file-lines"
+        },
+        {
+          text: "静态托管",
+          collapsible: true,
+          expanded: true,
+          prefix: "examshowboard/",
+          children: [
+            "static-config.md",
+          ],
+          icon: "fa-solid fa-file-lines"
+        },
+        {
+          text: "加入集控",
+          link: "Join-management.md",
+          icon: "fa-solid fa-file-lines"
+        },
       ],
     },
   ],
