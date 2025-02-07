@@ -17,6 +17,7 @@ category:
 <a id="get-started-static"></a>
 
 ### 集控服务器
+
 🚧正在开发
 
 ### 考试服务器
@@ -24,6 +25,7 @@ category:
 本功能只能起到下发配置的功能，无法实现集控服务器的功能。
 
 [🚀入门教程](examcloudsechdule/)
+
 <a id="get-started-server"></a>
 
 ### 使用静态托管配置文件
