@@ -1,17 +1,5 @@
 # 部署教程
 
-## 使用Python部署
- - 确保安装[Python](https://www.python.org/downloads/)。   
- - 下载最新版的项目代码
- - 执行以下命令启动本地服务器：
-    ```bash
-    python3 -m http.server 8000
-    ```   
- - 打开浏览器，访问 `http://localhost:8000` 或`http://IP:8000/`即可查看考试安排。 
-  
-> [!tip]
-> 8000端口可以自行修改成您需要的端口。
-
 ## 使用宝塔面板部署
  - 确保安装[宝塔面板](https://www.bt.cn/new/download.html)   
  - 将域名解析A记录解析到您的服务器IP地址。
@@ -26,18 +14,6 @@
 >如果您没有域名，可以前往[购买域名](https://www.dynadot.com/?s59Ms8lK8u7gQ)。
 >或者您也可以直接使用IP+端口直连访问。
 >
-
-## 使用GitHub Page部署
-
-- 将项目代码fork到您的GitHub仓库。
-- 在GitHub仓库中，进入 `Settings` -> `Pages`。
-- 在 `Source` 部分选择 `main` 分支并保存。
-![gh-pages](../images/gh01.png)
-- GitHub Pages 将会自动部署项目，稍后即可通过提供的URL访问。   
-> [!tip]
->
-> 您可以在`Custom domain`部分填入您的自定义域名，并将您的自定义域名`CNAME`解析到`{owner}.github.io`。
->   
 
 ## 使用IIS部署
 - 开启IIS功能     

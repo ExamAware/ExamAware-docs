@@ -68,5 +68,9 @@ tag:
 | 移动端 | [dsz-examaware-mobile/releases](https://github.com/ExamAware/dsz-examaware-mobile/releases) | [dsz-examaware-mobile/actions](https://github.com/ExamAware/dsz-examaware-mobile/actions) |
 
 :::
+> [!tip]
+>移动端目前缓慢更新，待`ExamAware2-Desktop`成熟后继续维护
+>移动端请前往[交流群](https://qm.qq.com/q/zDiEipHsaI)下载
+
 
 [^1]: Windows 7 生命周期策略：<https://learn.microsoft.com/zh-cn/lifecycle/products/windows-7>。Windows 7 ESU 结束支持于 2023/1/10。
