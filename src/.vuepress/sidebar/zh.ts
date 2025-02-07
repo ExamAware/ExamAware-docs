@@ -47,10 +47,11 @@ export const zhSidebar = sidebar({
       children: [
         "README.md",
         {
-          text: "集控服务器",
+
+          text: "考试服务器",
           collapsible: true,
           expanded: true,
-          prefix: "management-server/",
+          prefix: "examcloudsechdule/",
           children: [
             "README.md",
             {
@@ -58,7 +59,6 @@ export const zhSidebar = sidebar({
               link: "web-deploy.md",
               icon: "fa-solid fa-file-lines"
             },
-            "client-identify.md",
           ],
           icon: "fa-solid fa-file-lines"
         },
