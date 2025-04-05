@@ -1,7 +1,7 @@
 ---
 title: 网页端
 index: false
-icon: server
+icon: globe
 category:
   - 使用指南
   - 部署教程
@@ -49,7 +49,13 @@ category:
 #### 电子钟表界面   
 ![time](../web/images/es-time.png)
 
+#### 考试广播界面
+![notification](../web/images/es-notification.png)
 
 ## 开始使用/如何部署？
-请参阅[部署教程](/web/web-deploy.md)。
+请参阅[部署教程](../web/web-deploy.md)。
+
+> [!WARNING]
+>
+> 注意，广播与看板的配置文件是**分开存储于不同的两个文件夹之下**。
 

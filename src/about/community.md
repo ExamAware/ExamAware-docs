@@ -1,4 +1,5 @@
 ---
+title: 加入社区
 icon: users
 index: true
 ---

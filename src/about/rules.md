@@ -1,5 +1,5 @@
 ---
-author: HelloWRC
+author: Examaware 团队
 icon: scale-balanced
 ---
 
@@ -37,7 +37,7 @@ icon: scale-balanced
 ## 提问/求助
 
 1. 提问前请在这些地方查找您要问的问题：
-    - [本文档](https://https://docs.examaware.us.kg/)
+    - [本文档](https://docs.examaware.tech/)
     - [Issues](https://github.com/ExamAware/ExamAware2-Desktop/issues?q=is%3Aissue)
     - 搜索引擎（[必应](https://cn.bing.com/)、[百度](https://www.baidu.com/)等）
     
@@ -53,7 +53,7 @@ icon: scale-balanced
     > 在没有错误日志的情况下诊断任何问题无异于闭眼开车
     > —— Apache 官方文档 Gettings Started 篇章
 
-3. 如果您要反馈软件的 Bug，或者要提出一个功能请求，建议[提交一个 Issue](https://github.com/ExamAware/ExamAware2-Desktop/issues/)。开发者可能会遗漏在聊天里提出的 Bug 反馈和功能请求。
+3. 如果您要反馈软件的 Bug，或者要提出一个功能请求，建议前往对应项目提交一个 Issue。开发者可能会遗漏在聊天里提出的 Bug 反馈和功能请求。
     
 如果您不知道如何有效、精准地表述您的问题，我们建议您先阅读[《提问的智慧》](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md)。
 
@@ -74,6 +74,6 @@ icon: scale-balanced
 感谢您对本规范的支持与配合！希望大家能共同营造一个友好、和谐的交流社区。
 
 ::: right
-Hello8693
+ExamAware 团队
 2025 年 1 月 4 日
 :::
