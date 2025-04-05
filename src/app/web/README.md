@@ -53,7 +53,7 @@ category:
 ![notification](../web/images/es-notification.png)
 
 ## 开始使用/如何部署？
-请参阅[部署教程](../web/web-deploy.md)。
+请参阅[部署教程](web-deploy.md)。
 
 > [!WARNING]
 >
