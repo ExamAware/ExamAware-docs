@@ -2,10 +2,10 @@
 icon: code-commit
 ---
 
-# 向 ClassIsland 文档做贡献
+# 向 ExamAware 文档做贡献
 
 ::: warning 注意
-本文章是面向 _**ClassIsland 文档**_ 贡献者的贡献指南。如果您要为 **ClassIsland 本体** 做出贡献，请参阅 [ClassIsland 贡献指南](https://github.com/ClassIsland/ClassIsland/blob/master/CONTRIBUTING.md)。
+本文章是面向 _**ExamAware 文档**_ 贡献者的贡献指南。
 :::
 
 <img src="./image/contributing/Firefly_Sticker_01.png"
@@ -52,10 +52,10 @@ icon: code-commit
 
 ## 合并更改
 
-您可以向本项目发起 [Pull Request](https://github.com/ClassIsland/classisland-docs-next/pulls) 来合并您的更改。在发起 Pull Request 时，请简要地描述您做的更改。
+您可以向本项目发起 [Pull Request](https://github.com/ExamAware/ExamAware-docs/pulls) 来合并您的更改。在发起 Pull Request 时，请简要地描述您做的更改。
 
-更改合并以后，您可以在 [最新版文档](https://classisland.github.io/classisland-docs-next/) 中看到您的更改。
+更改合并以后，您可以在 [最新版文档](https://docs.examaware.tech) 中看到您的更改。
 
 ## 还有疑问？
 
-您可以[加入 QQ 群](https://qm.qq.com/q/4NsDQKiAuQ)与开发者和其他用户讨论。
+您可以[加入 QQ 群](https://qm.qq.com/q/zDiEipHsaI)与开发者和其他用户讨论。

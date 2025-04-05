@@ -43,12 +43,10 @@
 >
 > 如果有两个以"/"分隔的科目可以自动转化为双行显示
 
-## 配置文件编辑器(legacy)
-> [!caution]
-> **配置文件编辑器(legacy)不再维护** 如果您汇报使用此编辑器遇到的相关问题， **开发者可能不会受理。**
+## 配置文件编辑器
 
- 您可以前往[ExamShowBoardEditor](https://github.com/ProjectCampus-CH/DSZExamShowBoardEditor/releases/latest)获取GUI的配置文件生成软件   
- 1.双击运行从[仓库](https://github.com/ProjectCampus-CH/DSZExamShowBoardEditor/releases/latest)下载的软件   
+ 您可以前往[ExamScheduleEditor](https://github.com/ExamAware/ExamScheduleEditor/releases/latest)获取GUI的配置文件生成软件   
+ 1.双击运行从[仓库](https://github.com/ExamAware/ExamScheduleEditor/releases/latest)下载的软件   
  2.点击 `添加考试信息` 按钮添加考试信息   
   - 输入考试科目名称   
   - 输入考试日期，考试日期的格式如下

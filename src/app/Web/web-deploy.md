@@ -4,7 +4,7 @@
 
 填写或者用使用`ExamAware2` 或 `ExamCloud`集成的编辑器生成 `exam_config.json` 配置文件
 
-请参阅[配置文件](/app/profile/faq.md)。
+请参阅[配置文件编写](../config-edited.md)。
 
 ## 使用Python部署
  - 确保安装[Python](https://www.python.org/downloads/)。   

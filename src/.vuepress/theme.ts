@@ -14,7 +14,7 @@ export default hopeTheme({
 
   logo: "https://avatars.githubusercontent.com/u/195304368?s=200&v=4",
 
-  repo: "ExamAware/ExamAware-docs-next",
+  repo: "ExamAware/ExamAware-docs",
 
   docsDir: "src",
 

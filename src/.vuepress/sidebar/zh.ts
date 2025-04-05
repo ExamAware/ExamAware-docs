@@ -11,33 +11,32 @@ export const zhSidebar = sidebar({
   "/app/": [
     {
       icon: "fa-solid fa-lightbulb",
-      text: "应用帮助",
-      children: [
-        "index.md",
-        "setup.md",
-        {
-          text: "档案设置",
-          collapsible: true,
-          expanded: true,
-          prefix: "profile/",
-          children: [
-            "faq.md",
-          ],
-          icon: "fa-solid fa-file-lines"
-        },
-      ],
-    },
-  ],
-  "/web/": [
-    {
-      text: "网页端",
+      text: "客户端",
       children: [
         "README.md",
+        "setup.md",
         {
-          text: "部署教程",
-          link: "web-deploy.md",
-          icon: "fa-solid fa-file-lines"
+          text: "桌面端",
+          collapsible: true,
+          expanded: true,
+          prefix: "Desktop/",
+          children: [
+            "README.md",
+          ],
+          icon: "desktop"
         },
+        {
+          text: "网页端",
+          collapsible: true,
+          expanded: true,
+          prefix: "Web/",
+          children: [
+            "README.md",
+            "web-deploy.md",
+          ],
+          icon: "globe"
+        },
+        "config-edited.md",
       ],
     },
   ],
@@ -80,12 +79,14 @@ export const zhSidebar = sidebar({
       ],
     },
   ],
-  "/community/": [
+  "/about/": [
     {
-      text: "社区",
+      text: "关于",
       children: [
         "README.md",
-        "rules.md"
+        "contributing.md",
+        "community.md",
+        "rules.md",
       ],
     },
   ],
