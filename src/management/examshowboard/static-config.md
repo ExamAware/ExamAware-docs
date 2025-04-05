@@ -8,7 +8,7 @@
 
 您可以手动编写集控配置文件，并将其托管到静态网站上。
 
-请参阅[配置文件编写教程](/app/profile/faq.md)  
+请参阅[配置文件编写教程](../../app/config-edited.md)  
 
 - 新建 GitHub 公开存储仓库
 - 上传您编写好的的 `exam_config.json` 文件
