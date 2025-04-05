@@ -1,5 +1,7 @@
 # ExamAware 文档
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/efe5dddf-07af-440e-bb30-a2691a7464fb/deploy-status)](https://app.netlify.com/sites/docs-examaware/deploys)
+
 这是 [ExamAware](https://github.com/ExamAware/ExamAware-docs) 文档仓库。本文档基于 [VuePress](https://vuejs.press/) 搭建
 
 [在线查看文档](https://examaware.gdata.fun)
