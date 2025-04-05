@@ -19,7 +19,7 @@ export const zhSidebar = sidebar({
           text: "桌面端",
           collapsible: true,
           expanded: true,
-          prefix: "Desktop/",
+          prefix: "desktop/",
           children: [
             "README.md",
           ],
@@ -29,7 +29,7 @@ export const zhSidebar = sidebar({
           text: "网页端",
           collapsible: true,
           expanded: true,
-          prefix: "Web/",
+          prefix: "web/",
           children: [
             "README.md",
             "web-deploy.md",
