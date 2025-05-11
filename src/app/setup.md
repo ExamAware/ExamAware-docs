@@ -69,6 +69,10 @@ tag:
 
 如果安装时遇到问题，**首先请自行[百度](https://www.baidu.com/)一下**。如果问题无法解决，您可以[在 QQ 群求助](https://qm.qq.com/q/zDiEipHsaI)或者前往[Discussion](https://github.com/orgs/ExamAware/discussions)交流。
 
+# 终极部署方案
+都不会使用？或者……尝试终极解决方案：
+邮箱联系 `admin@hellofhz.dpdns.org` ，如果我有空我可以为你的安装提供帮助😊
+
 # 开始使用
 
 如果您要进一步了解本软件，您可以继续阅读本文档。

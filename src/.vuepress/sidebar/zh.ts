@@ -47,10 +47,10 @@ export const zhSidebar = sidebar({
         "README.md",
         {
 
-          text: "考试服务器",
+          text: "考试看板云管理",
           collapsible: true,
           expanded: true,
-          prefix: "examcloudsechdule/",
+          prefix: "examschedule-management/",
           children: [
             "README.md",
             {
