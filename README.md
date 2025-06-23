@@ -1,19 +1,11 @@
 # ExamAware 文档
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/efe5dddf-07af-440e-bb30-a2691a7464fb/deploy-status)](https://app.netlify.com/sites/docs-examaware/deploys)
+[![Deploy VitePress site to Pages](https://github.com/ExamAware/ExamAware-docs/actions/workflows/deploy.yml/badge.svg)](https://github.com/ExamAware/ExamAware-docs/actions/workflows/deploy.yml)
 
 这是 [ExamAware](https://github.com/ExamAware/ExamAware-docs) 文档仓库。本文档基于 [VuePress](https://vuejs.press/) 搭建
 
 [在线查看文档](https://examaware.gdata.fun)
-
-## 开始之前
-
-不要刷测速了！Vercel 有 ddos 防火墙了！越刷越慢！
-（也不要尝试攻击了，Vercel 也有攻击验证模式了）
-
-![ksnip_20250202-003641](https://github.com/user-attachments/assets/0b49e8fa-80fb-46aa-adc0-c234be4e06bc)
-
-已经优化加速了。
 
 ## 开始编写文档
 
