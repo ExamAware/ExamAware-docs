@@ -15,8 +15,8 @@ importers:
         specifier: ^4.5.0
         version: 4.5.0
       echarts:
-        specifier: ^5.5.1
-        version: 5.5.1
+        specifier: ^5.6.0
+        version: 5.6.0
       flowchart.ts:
         specifier: ^3.0.1
         version: 3.0.1
@@ -47,7 +47,7 @@ importers:
         version: 2.0.0-rc.59(sass-embedded@1.89.2)(typescript@5.6.3)(vuepress@2.0.0-rc.15(@vuepress/bundler-vite@2.0.0-rc.15(@types/node@22.9.1)(sass-embedded@1.89.2)(typescript@5.6.3))(typescript@5.6.3)(vue@3.5.17(typescript@5.6.3)))
       vuepress-theme-hope:
         specifier: 2.0.0-rc.59
-        version: 2.0.0-rc.59(chart.js@4.5.0)(echarts@5.5.1)(flowchart.ts@3.0.1)(katex@0.16.22)(markdown-it@14.1.0)(mathjax-full@3.2.2)(mermaid@11.4.0)(sass-embedded@1.89.2)(typescript@5.6.3)(vuepress-plugin-search-pro@2.0.0-rc.59(sass-embedded@1.89.2)(typescript@5.6.3)(vuepress@2.0.0-rc.15(@vuepress/bundler-vite@2.0.0-rc.15(@types/node@22.9.1)(sass-embedded@1.89.2)(typescript@5.6.3))(typescript@5.6.3)(vue@3.5.17(typescript@5.6.3))))(vuepress@2.0.0-rc.15(@vuepress/bundler-vite@2.0.0-rc.15(@types/node@22.9.1)(sass-embedded@1.89.2)(typescript@5.6.3))(typescript@5.6.3)(vue@3.5.17(typescript@5.6.3)))
+        version: 2.0.0-rc.59(chart.js@4.5.0)(echarts@5.6.0)(flowchart.ts@3.0.1)(katex@0.16.22)(markdown-it@14.1.0)(mathjax-full@3.2.2)(mermaid@11.4.0)(sass-embedded@1.89.2)(typescript@5.6.3)(vuepress-plugin-search-pro@2.0.0-rc.59(sass-embedded@1.89.2)(typescript@5.6.3)(vuepress@2.0.0-rc.15(@vuepress/bundler-vite@2.0.0-rc.15(@types/node@22.9.1)(sass-embedded@1.89.2)(typescript@5.6.3))(typescript@5.6.3)(vue@3.5.17(typescript@5.6.3))))(vuepress@2.0.0-rc.15(@vuepress/bundler-vite@2.0.0-rc.15(@types/node@22.9.1)(sass-embedded@1.89.2)(typescript@5.6.3))(typescript@5.6.3)(vue@3.5.17(typescript@5.6.3)))
 
 packages:
 
@@ -1754,8 +1754,8 @@ packages:
   domutils@3.1.0:
     resolution: {integrity: sha512-H78uMmQtI2AhgDJjWeQmHwJJ2bLPD3GMmO7Zja/ZZh84wkm+4ut+IUnUdRa8uCGX88DiVx1j6FRe1XfxEgjEZA==}
 
-  echarts@5.5.1:
-    resolution: {integrity: sha512-Fce8upazaAXUVUVsjgV6mBnGuqgO+JNDlcgF79Dksy4+wgGpQB2lmYoO4TSweFg/mZITdpGHomw/cNBJZj1icA==}
+  echarts@5.6.0:
+    resolution: {integrity: sha512-oTbVTsXfKuEhxftHqL5xprgLoc0k7uScAwtryCgWF6hPYFLRwOUHiFmHGCBKP5NPFNkDVopOieyUqYGH8Fa3kA==}
 
   electron-to-chromium@1.5.64:
     resolution: {integrity: sha512-IXEuxU+5ClW2IGEYFC2T7szbyVgehupCWQe5GNh+H065CD6U6IFN0s4KeAMFGNmQolRU4IV7zGBWSYMmZ8uuqQ==}
@@ -3221,8 +3221,8 @@ packages:
   zod@3.23.8:
     resolution: {integrity: sha512-XBx9AXhXktjUqnepgTiE5flcKIYWi/rme0Eaj+5Y0lftuGBq+jyRu/md4WnuxqgP1ubdpNCsYEYPxrzVHD8d6g==}
 
-  zrender@5.6.0:
-    resolution: {integrity: sha512-uzgraf4njmmHAbEUxMJ8Oxg+P3fT04O+9p7gY+wJRVxo8Ge+KmYv0WJev945EH4wFuc4OY2NLXz46FZrWS9xJg==}
+  zrender@5.6.1:
+    resolution: {integrity: sha512-OFXkDJKcrlx5su2XbzJvj/34Q3m6PvyCZkVPHGYpcCJ52ek4U/ymZyfuV1nKE23AyBJ51E/6Yr0mhZ7xGTO4ag==}
 
   zwitch@2.0.4:
     resolution: {integrity: sha512-bXE4cR/kVZhKZX/RjPEflHaKVhUVl85noU3v6b8apfQEc1x4A+zBxjZ4lN8LqGd6WZ3dl98pY4o717VFmoPp+A==}
@@ -5035,10 +5035,10 @@ snapshots:
       domelementtype: 2.3.0
       domhandler: 5.0.3
 
-  echarts@5.5.1:
+  echarts@5.6.0:
     dependencies:
       tslib: 2.3.0
-      zrender: 5.6.0
+      zrender: 5.6.1
 
   electron-to-chromium@1.5.64: {}
 
@@ -6348,7 +6348,7 @@ snapshots:
       - '@vue/composition-api'
       - typescript
 
-  vuepress-plugin-md-enhance@2.0.0-rc.59(chart.js@4.5.0)(echarts@5.5.1)(flowchart.ts@3.0.1)(markdown-it@14.1.0)(mermaid@11.4.0)(sass-embedded@1.89.2)(typescript@5.6.3)(vuepress@2.0.0-rc.15(@vuepress/bundler-vite@2.0.0-rc.15(@types/node@22.9.1)(sass-embedded@1.89.2)(typescript@5.6.3))(typescript@5.6.3)(vue@3.5.17(typescript@5.6.3))):
+  vuepress-plugin-md-enhance@2.0.0-rc.59(chart.js@4.5.0)(echarts@5.6.0)(flowchart.ts@3.0.1)(markdown-it@14.1.0)(mermaid@11.4.0)(sass-embedded@1.89.2)(typescript@5.6.3)(vuepress@2.0.0-rc.15(@vuepress/bundler-vite@2.0.0-rc.15(@types/node@22.9.1)(sass-embedded@1.89.2)(typescript@5.6.3))(typescript@5.6.3)(vue@3.5.17(typescript@5.6.3))):
     dependencies:
       '@mdit/plugin-alert': 0.13.1(markdown-it@14.1.0)
       '@mdit/plugin-align': 0.13.1(markdown-it@14.1.0)
@@ -6376,7 +6376,7 @@ snapshots:
       vuepress-shared: 2.0.0-rc.59(typescript@5.6.3)(vuepress@2.0.0-rc.15(@vuepress/bundler-vite@2.0.0-rc.15(@types/node@22.9.1)(sass-embedded@1.89.2)(typescript@5.6.3))(typescript@5.6.3)(vue@3.5.17(typescript@5.6.3)))
     optionalDependencies:
       chart.js: 4.5.0
-      echarts: 5.5.1
+      echarts: 5.6.0
       flowchart.ts: 3.0.1
       mermaid: 11.4.0
       sass-embedded: 1.89.2
@@ -6413,7 +6413,7 @@ snapshots:
       - '@vue/composition-api'
       - typescript
 
-  vuepress-theme-hope@2.0.0-rc.59(chart.js@4.5.0)(echarts@5.5.1)(flowchart.ts@3.0.1)(katex@0.16.22)(markdown-it@14.1.0)(mathjax-full@3.2.2)(mermaid@11.4.0)(sass-embedded@1.89.2)(typescript@5.6.3)(vuepress-plugin-search-pro@2.0.0-rc.59(sass-embedded@1.89.2)(typescript@5.6.3)(vuepress@2.0.0-rc.15(@vuepress/bundler-vite@2.0.0-rc.15(@types/node@22.9.1)(sass-embedded@1.89.2)(typescript@5.6.3))(typescript@5.6.3)(vue@3.5.17(typescript@5.6.3))))(vuepress@2.0.0-rc.15(@vuepress/bundler-vite@2.0.0-rc.15(@types/node@22.9.1)(sass-embedded@1.89.2)(typescript@5.6.3))(typescript@5.6.3)(vue@3.5.17(typescript@5.6.3))):
+  vuepress-theme-hope@2.0.0-rc.59(chart.js@4.5.0)(echarts@5.6.0)(flowchart.ts@3.0.1)(katex@0.16.22)(markdown-it@14.1.0)(mathjax-full@3.2.2)(mermaid@11.4.0)(sass-embedded@1.89.2)(typescript@5.6.3)(vuepress-plugin-search-pro@2.0.0-rc.59(sass-embedded@1.89.2)(typescript@5.6.3)(vuepress@2.0.0-rc.15(@vuepress/bundler-vite@2.0.0-rc.15(@types/node@22.9.1)(sass-embedded@1.89.2)(typescript@5.6.3))(typescript@5.6.3)(vue@3.5.17(typescript@5.6.3))))(vuepress@2.0.0-rc.15(@vuepress/bundler-vite@2.0.0-rc.15(@types/node@22.9.1)(sass-embedded@1.89.2)(typescript@5.6.3))(typescript@5.6.3)(vue@3.5.17(typescript@5.6.3))):
     dependencies:
       '@vuepress/helper': 2.0.0-rc.56(typescript@5.6.3)(vuepress@2.0.0-rc.15(@vuepress/bundler-vite@2.0.0-rc.15(@types/node@22.9.1)(sass-embedded@1.89.2)(typescript@5.6.3))(typescript@5.6.3)(vue@3.5.17(typescript@5.6.3)))
       '@vuepress/plugin-active-header-links': 2.0.0-rc.55(typescript@5.6.3)(vuepress@2.0.0-rc.15(@vuepress/bundler-vite@2.0.0-rc.15(@types/node@22.9.1)(sass-embedded@1.89.2)(typescript@5.6.3))(typescript@5.6.3)(vue@3.5.17(typescript@5.6.3)))
@@ -6448,7 +6448,7 @@ snapshots:
       vue: 3.5.17(typescript@5.6.3)
       vuepress: 2.0.0-rc.15(@vuepress/bundler-vite@2.0.0-rc.15(@types/node@22.9.1)(sass-embedded@1.89.2)(typescript@5.6.3))(typescript@5.6.3)(vue@3.5.17(typescript@5.6.3))
       vuepress-plugin-components: 2.0.0-rc.59(sass-embedded@1.89.2)(typescript@5.6.3)(vuepress@2.0.0-rc.15(@vuepress/bundler-vite@2.0.0-rc.15(@types/node@22.9.1)(sass-embedded@1.89.2)(typescript@5.6.3))(typescript@5.6.3)(vue@3.5.17(typescript@5.6.3)))
-      vuepress-plugin-md-enhance: 2.0.0-rc.59(chart.js@4.5.0)(echarts@5.5.1)(flowchart.ts@3.0.1)(markdown-it@14.1.0)(mermaid@11.4.0)(sass-embedded@1.89.2)(typescript@5.6.3)(vuepress@2.0.0-rc.15(@vuepress/bundler-vite@2.0.0-rc.15(@types/node@22.9.1)(sass-embedded@1.89.2)(typescript@5.6.3))(typescript@5.6.3)(vue@3.5.17(typescript@5.6.3)))
+      vuepress-plugin-md-enhance: 2.0.0-rc.59(chart.js@4.5.0)(echarts@5.6.0)(flowchart.ts@3.0.1)(markdown-it@14.1.0)(mermaid@11.4.0)(sass-embedded@1.89.2)(typescript@5.6.3)(vuepress@2.0.0-rc.15(@vuepress/bundler-vite@2.0.0-rc.15(@types/node@22.9.1)(sass-embedded@1.89.2)(typescript@5.6.3))(typescript@5.6.3)(vue@3.5.17(typescript@5.6.3)))
       vuepress-shared: 2.0.0-rc.59(typescript@5.6.3)(vuepress@2.0.0-rc.15(@vuepress/bundler-vite@2.0.0-rc.15(@types/node@22.9.1)(sass-embedded@1.89.2)(typescript@5.6.3))(typescript@5.6.3)(vue@3.5.17(typescript@5.6.3)))
     optionalDependencies:
       sass-embedded: 1.89.2
@@ -6571,7 +6571,7 @@ snapshots:
 
   zod@3.23.8: {}
 
-  zrender@5.6.0:
+  zrender@5.6.1:
     dependencies:
       tslib: 2.3.0
 
