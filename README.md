@@ -5,7 +5,7 @@
 
 这是 [ExamAware](https://github.com/ExamAware/ExamAware-docs) 文档仓库。本文档基于 [VuePress](https://vuejs.press/) 搭建
 
-[在线查看文档](https://examaware.gdata.fun)
+[在线查看文档](https://docs.examaware.cn)
 
 ## 开始编写文档
 

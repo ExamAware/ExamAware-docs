@@ -7,7 +7,7 @@ export default hopeTheme({
 
   author: {
     name: "ExamAware 社区",
-    url: "https://github.com/orgs/ExamAware/discussions",
+    url: "https://www.examaware.cn",
   },
 
   iconAssets: "fontawesome-with-brands",
@@ -38,7 +38,10 @@ export default hopeTheme({
       sidebar: zhSidebar,
 
       //  autocorrect-disable
-      footer: "Copyright (c) 2025 ExamAware | " +
+      footer: 
+          '<a href="https://chuqiyun.com" target="_blank"><img src="https://chuqiyun.com/static/images/poweredby.svg" width="80" alt="初七云"></a>' +
+          '<br/>' +
+          "Copyright (c) 2025 ExamAware | " +
           '本文档以 CC BY-NC-SA 4.0 许可协议授权。',
       //  autocorrect-enable
 

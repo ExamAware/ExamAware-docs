@@ -18,7 +18,7 @@ actions:
     type: primary
 
   - text: 官网
-    link: https://github.com/ExamAware/
+    link: https://www.examaware.cn
 
   - text: GitHub 仓库
     link: https://github.com/ExamAware/ExamAware2-Desktop
@@ -59,6 +59,6 @@ DSZ ExamAware 系列软件是显示当前时间与考试详细信息的工具，
     <VPCard
     title="关于"
     desc="了解关于 DSZ EamAware 的更多信息。"
-    link="./community/"
+    link="./about/"
   />
 </div>

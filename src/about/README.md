@@ -17,4 +17,3 @@ ExamAware 是一个由一群热爱学习的学生开发者组成的团队。
 - [jiangyin](https://github.com/jiangyin14)
 - [fhzit](https://github.com/fhzit)
 - [unDefFtr](https://github.com/unDefFtr)
-- [Jursin](https://github.com/Jursin)
