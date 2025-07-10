@@ -17,7 +17,25 @@ export default defineUserConfig({
       description: "documentation of ExamAware",
     },
   },
-  theme
+
+  head: [
+    // MXA 分析脚本
+    [
+      "script",
+      {
+        charset: "UTF-8",
+        id: "MXA_COLLECT",
+        src: "//mxana.tacool.com/sdk.js",
+      },
+    ],
+    [
+      "script",
+      {},
+      `MXA.init({ id: "c1-YBFDQnwP", useHeatMap: true, useHash: true, useErrorLog: true })`,
+    ],
+  ],
+
+  theme,
   // 和 PWA 一起启用
   // shouldPrefetch: false,
 });
