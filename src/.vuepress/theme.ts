@@ -42,7 +42,9 @@ export default hopeTheme({
           '<a href="https://chuqiyun.com" target="_blank"><img src="https://chuqiyun.com/static/images/poweredby.svg" width="80" alt="初七云"></a>' +
           '<br/>' +
           "Copyright (c) 2025 ExamAware | " +
-          '本文档以 CC BY-NC-SA 4.0 许可协议授权。',
+          '本文档以 CC BY-NC-SA 4.0 许可协议授权。'+
+          '<br/>' +
+          '<a href="https://beian.miit.gov.cn/" target="_blank">津ICP备2025035356号-7</a>',
       //  autocorrect-enable
 
       displayFooter: true,
