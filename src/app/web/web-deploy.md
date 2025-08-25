@@ -18,6 +18,31 @@
 > [!tip]
 > 8000端口可以自行修改成您需要的端口。
 
+::: details 如果目标计算机上不方便安装 Python 环境
+
+找一台其他计算机，安装 Pyinstaller。
+```bash
+pip install pyinstaller
+```
+安装完成后，定位到任意位置（建议新建文件夹，该步骤是为了方便后续拿取打包后的文件，不要给自己挖坑），键入以下命令：
+```bash
+pyinstaller -F http.server
+```
+在 `dist` 文件夹中即可找到打包好的文件。该文件作用与上文中启动本地服务器的 Python 指令相同。
+
+如果需要更改端口号，可以使用以下命令：
+```bash
+# 此处 8080 改为你想要使用的端口号
+./server 8080 # Unix
+server.exe 8080 # Windows CMD
+```
+
+> [!tip]
+> 如果在目标计算机上无法使用，请尝试使用更低版本的 Python 进行打包。
+
+:::
+
+
 ## 使用宝塔面板部署
  - 确保安装[宝塔面板](https://www.bt.cn/new/download.html)   
  - 将域名解析A记录解析到您的服务器IP地址。
