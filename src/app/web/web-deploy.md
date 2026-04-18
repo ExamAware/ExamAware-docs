@@ -70,6 +70,14 @@ server.exe 8080 # Windows CMD
 > 您可以在`Custom domain`部分填入您的自定义域名，并将您的自定义域名`CNAME`解析到`{owner}.github.io`。
 >   
 
+## 使用Vercel一键部署
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FExamAware%2FExamSchedule&project-name=examschedule&repository-name=examschedule)
+
+## 使用Netlify一键部署
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ExamAware/ExamSchedule)
+
 ## 使用IIS部署
 - 开启IIS功能     
 1.打开`设置`    
