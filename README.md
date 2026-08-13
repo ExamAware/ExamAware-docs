@@ -37,13 +37,13 @@
    pnpm exec wrangler login
    ```
 
-2. 在本地构建并预览 Worker：
+2. 在本地构建并预览 Worker（Wrangler 会自动执行 VuePress 构建）：
 
    ```sh
    pnpm run worker:dev
    ```
 
-3. 构建并部署到 Cloudflare Workers：
+3. 构建并部署到 Cloudflare Workers（Wrangler 会自动执行 VuePress 构建）：
 
    ```sh
    pnpm run worker:deploy
@@ -53,9 +53,11 @@
 
 在 Cloudflare 控制台的 **Workers & Pages** 中导入本 GitHub 仓库，并设置：
 
-- 构建命令：`pnpm run docs:build`
+- 构建命令：留空（由 `wrangler.jsonc` 的自定义构建命令执行）
 - 部署命令：`pnpm exec wrangler deploy`
-- Node.js 版本：22 或更高
+- Node.js 版本：20 或更高
+
+Wrangler 会根据 `wrangler.jsonc` 先构建 VuePress，再部署静态资源，避免 Cloudflare 在没有生成 `src/.vuepress/dist` 时直接部署失败。
 
 Wrangler 会根据 `wrangler.jsonc` 将 VuePress 构建产物作为 Worker 静态资源部署。原有 GitHub Pages 部署方式不受影响。
 

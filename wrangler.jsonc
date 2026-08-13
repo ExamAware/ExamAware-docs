@@ -1,7 +1,10 @@
 {
   "$schema": "./node_modules/wrangler/config-schema.json",
   "name": "examaware-docs",
-  "compatibility_date": "2026-08-13",
+  "compatibility_date": "2025-11-18",
+  "build": {
+    "command": "pnpm run docs:build"
+  },
   "assets": {
     "directory": "./src/.vuepress/dist",
     "html_handling": "auto-trailing-slash",
