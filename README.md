@@ -24,6 +24,41 @@
 
 启动 VuePress 服务器后，在浏览器中打开终端输出的链接（默认是[http://localhost:8080/](http://localhost:8080/)）即可浏览文档。当本地文档做出更改时，浏览器中的文档将自动刷新。
 
+## 部署到 Cloudflare Workers
+
+本仓库已配置 Cloudflare Workers Static Assets，构建产物位于 `src/.vuepress/dist`。
+
+### 使用 Wrangler 部署
+
+1. 安装依赖并登录 Cloudflare：
+
+   ```sh
+   pnpm install
+   pnpm exec wrangler login
+   ```
+
+2. 在本地构建并预览 Worker：
+
+   ```sh
+   pnpm run worker:dev
+   ```
+
+3. 构建并部署到 Cloudflare Workers：
+
+   ```sh
+   pnpm run worker:deploy
+   ```
+
+### 使用 Cloudflare 控制台自动部署
+
+在 Cloudflare 控制台的 **Workers & Pages** 中导入本 GitHub 仓库，并设置：
+
+- 构建命令：`pnpm run docs:build`
+- 部署命令：`pnpm exec wrangler deploy`
+- Node.js 版本：22 或更高
+
+Wrangler 会根据 `wrangler.jsonc` 将 VuePress 构建产物作为 Worker 静态资源部署。原有 GitHub Pages 部署方式不受影响。
+
 本文档使用了 vuepress-plugin-md-enhance
  的一些扩展语法，请尽量直接编辑 Markdown 文件，而不是使用可视化 Markdown 编辑器。建议使用 [Visual Studio Code](https://code.visualstudio.com/) 编辑文档。
 
